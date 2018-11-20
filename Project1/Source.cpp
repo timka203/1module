@@ -6,17 +6,11 @@
 
 int main()
 {
-	/*int a, b;
-	a = 34;
+	int a, b;
+	a = 35;
 	b = 56;
 	if (a < b) printf("%d\n", a);
 	else printf("%d/n", b)
-	
-	
-	
-	
-	
-	
 	
 	
 	/*int a, b;
