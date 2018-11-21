@@ -6,11 +6,105 @@
 
 int main()
 {
-	int a, b;
+	setlocale(LC_ALL, "");
+	int r, a,f, c,s,p;
+	printf("Ввидите масса первого вещества");
+	scanf_s("%d", &s);
+	printf("Ввидите объём первого вещества");
+	scanf_s("%d", &r);
+	printf("Ввидите масса второго вещества ");
+	scanf_s("%d", &p);
+	printf("Ввидите объём второго вещества  ");
+	scanf_s("%d", &f);
+	p= s / r;
+	c = p / f;
+	if (p < c)printf("Плотность первого вещества меньше \n");
+	else printf("Плотность второго вещества меньше\n"); 
+	
+	
+	
+	
+	
+	
+	/*int a, b  ;
+	float c;
+	printf("Расстояние в мм ");
+	scanf_s("%d", &a);
+	printf("Расстояние в дюймах ");
+	scanf_s("%d", &b);
+	c = b*25,4;
+	if (a < c)printf("Расстояние в мм меньше\n");
+	else printf("Расстояние в дюмах меньше\n");*/
+
+	
+	
+	/*int r, a,f, c;
+	float s,p;
+	printf("Ввидите радиус круга");
+	scanf_s("%d", &r);
+	printf("Ввидите сторону квадрата");
+	scanf_s("%d", &a);
+	p = 3, 14;
+	f = a * a;
+	s = p * f;
+	c = 4 * a;
+	if (s < c)printf("Площадь квадрата больше\n");
+	else printf("Площадь круга больше\n");*/ 
+
+	
+	
+	
+	
+	/*int a, b, c ;
+	printf("Скорость в км\\ч");
+	scanf_s("%d", &a);
+	printf("Скорость в м\\ч");
+	scanf_s("%d", &b);
+	c = b *3,6;
+	if (a < c)printf("скорость в км\\час меньше\n");
+	else printf("Скорость в милях в час меньше\n");*/
+
+	
+	
+	
+	
+	
+	
+	/*int a, b, c ;
+	printf("Ввидите первое число ");
+	scanf_s("%d", &a);
+	printf("Ввидите второе число ");
+	scanf_s("%d", &b);
+	c = a/b;
+	printf("%d\n", c);*/
+
+
+
+
+
+
+
+
+
+
+	/*int a, b, c ;
+	printf("Расстояние в км ");
+	scanf_s("%d", &a);
+    printf("Расстояние в футах ");
+	scanf_s("%d", &b);
+	c = b / 2000;
+	if (a < c)printf("Расстояние в км меньше\n");
+	else printf("Расстояние в футах меньше\n");*/
+
+
+
+
+
+	/*int a, b;
 	a = 35;
 	b = 56;
 	if (a < b) printf("%d\n", a);
-	else printf("%d/n", b)
+	else printf("%d/n", b)*/
 	
 	
 	/*int a, b;
